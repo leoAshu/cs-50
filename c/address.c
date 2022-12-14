@@ -3,6 +3,7 @@
 int main(void) {
     int n = 50;
     int *p = &n;
-    
-    printf("%p", p);
+
+    printf("%p\n", p);
+    printf("%i\n", *p);
 }
